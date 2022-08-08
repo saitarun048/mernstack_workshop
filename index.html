@@ -5,12 +5,167 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            background-color: rgb(224, 217, 217);
+            color: black;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px;
+        }
+
+        .items {
+            display: flex;
+            justify-content: space-around;
+            width: 600px;
+
+
+        }
+
+        .items a {
+            text-decoration: none;
+            font-size: large;
+
+        }
+
+
+
+        .details {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            text-align: center;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .academics {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+    <title>Welcome | Home</title>
 </head>
 
 <body>
-    <p>hello world</p>
-    <p>this is new line added after the creation</p>
+
+    <div class="navigation">
+        <div>
+            <img width="150px" height="50px"
+                src="https://tse1.mm.bing.net/th?id=OIP.6QEnwx-yBs4xROe1N64xewHaCg&pid=Api&P=0" alt="SRM logo">
+        </div>
+        <div class="items">
+            <a href="">About Me</a>
+            <a href="">Academics</a>
+            <a href="">Projects</a>
+            <a href="">Hobbies</a>
+        </div>
+    </div>
+
+
+    <div class="details">
+
+        <div>
+            <img width="200px" height="200px" src="My Image.jpg" alt="my image">
+        </div>
+        <div> Name:- E.Sai Tarun Kumar Reddy</div>
+        <div>Course : B.Tech, CSE, 2023</div>
+        <div>Email : et3219@srmist.edu.in</div>
+    </div>
+    <hr>
+
+    <div class="academics">
+        <table style="width:100%">
+            <tr>
+                <th>Course</th>
+                <th>Institute/College</th>
+                <th>Board/University</th>
+                <th>Score</th>
+            </tr>
+            <tr>
+                <td>CLASS X</td>
+                <td>ST.Antony's public school</td>
+                <td>CBSE</td>
+                <td>8.4 CGPA</td>
+            </tr>
+            <tr>
+                <td>CLASS XII</td>
+                <td>Urbane Junior College</td>
+                <td>Telangana Board of Intermediate</td>
+                <td>958 Marks</td>
+            </tr>
+            <tr>
+                <td>B.TECH</td>
+                <td>SRM INSTITUTE</td>
+                <td>-</td>
+                <td>9.19 CGPA</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="technical">
+        <table style="width:100%">
+            <tr>
+                <th>Subjects/Electives</th>
+                <th>Technical Proficiency</th>
+
+            </tr>
+            <tr>
+                <td>Cloud Architecture, Object Oriented Design and Programming, Computer Communications, Software
+                    Engineering and Project Management, Programming for Problem solving, Design and Analysis of
+                    Algorithms,
+                    Principles of cloud computing, Data structures and algorithms, Waste to Wealth to Wheels, Advanced
+                    Programming Practice</td>
+                <td>C++ Language, C Programming, Front-End Web Development, Python3, Soft
+                    Skills, MongoDB, CSS, Communication Skills, SQL</td>
+
+            </tr>
+
+        </table>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="internships">
+        <table style="width:100%">
+            <tr>
+                <th>Summer Internships</th>
+
+            </tr>
+            <tr>
+                <td>
+
+                    <p>software Developer, Trainity - Two-month full-stack(MERN) development training
+                        Learned and developed various projects of MERN stack along with Frontend Development (HTML, CSS
+                        and
+                        JS)</p>
+                    <p>student Ambassador, viral fission - This internship is about online branding which includes
+                        content creation and also many other
+                        activities.
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
 </body>
 
 </html>
